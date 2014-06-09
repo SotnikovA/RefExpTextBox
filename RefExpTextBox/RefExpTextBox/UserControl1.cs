@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace RefExpTextBox
 {
+    //данный комментарий лишь для проверки правильности работы git хаба
     [ToolboxBitmap(typeof(RefExpTextBox))]
     public partial class RefExpTextBox: TextBox
     {
