@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefExpTextBox", "RefExpTextBox\RefExpTextBox.csproj", "{F264CE0E-AF72-4E66-BD6F-A85DF8838847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "..\..\WindowsFormsApplication1\WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{6680B95D-63E7-41EC-8653-050B906FF4B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F264CE0E-AF72-4E66-BD6F-A85DF8838847} = {F264CE0E-AF72-4E66-BD6F-A85DF8838847}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F264CE0E-AF72-4E66-BD6F-A85DF8838847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F264CE0E-AF72-4E66-BD6F-A85DF8838847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F264CE0E-AF72-4E66-BD6F-A85DF8838847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F264CE0E-AF72-4E66-BD6F-A85DF8838847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6680B95D-63E7-41EC-8653-050B906FF4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6680B95D-63E7-41EC-8653-050B906FF4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6680B95D-63E7-41EC-8653-050B906FF4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6680B95D-63E7-41EC-8653-050B906FF4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
