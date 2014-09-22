@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 namespace RefExpTextBox
 {
     //данный комментарий лишь для проверки правильности работы git хаба
-    // а это новый коммент для проверки гит бакэта
+    // а это новый коммент для проверки гит бакэта блеа
     [ToolboxBitmap(typeof(RefExpTextBox))]
     public partial class RefExpTextBox: TextBox
     {
